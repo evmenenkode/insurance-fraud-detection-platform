@@ -1,0 +1,22 @@
+# Virtual Environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Environment variables
+.env
+
+# Databricks
+.databricks/
+
+# Testing
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
