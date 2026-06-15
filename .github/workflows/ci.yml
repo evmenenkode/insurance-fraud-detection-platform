@@ -25,8 +25,10 @@ jobs:
 
       - name: Run lint (ruff)
         run: |
-          ruff check .
+          ruff check . --exclude venv --exclude .venv --exclude "*.ipynb"
 
       - name: Run tests
         run: |
           python -m pytest -q
+
+          
